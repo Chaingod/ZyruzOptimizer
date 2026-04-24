@@ -1,5 +1,4 @@
 <p align="center">
-  <img src="assets/banner.png" alt="Zyruz Booster Banner" width="100%">
 </p>
 
 <h1 align="center">🚀 Zyruz Booster — Elite PC Optimizer</h1>
