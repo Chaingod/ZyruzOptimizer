@@ -11,7 +11,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Version-1.6.1-blueviolet?style=for-the-badge&logo=github" alt="Version">
   <img src="https://img.shields.io/badge/Platform-Windows-0078D4?style=for-the-badge&logo=windows" alt="Platform">
-  <img src="https://img.shields.io/badge/Join%20Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Join Discord">
+  <a href="https://discord.gg/MxU4TNrzSt"><img src="https://img.shields.io/badge/Join%20Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Join Discord"></a>
 </p>
 
 ---
@@ -69,7 +69,7 @@ Tired of feeling like your PC isn't performing as well as it should? Most optimi
 
 ## 🔗 Get Started
 
-Download the latest version from [Releases](https://github.com/Chaingod/zyruzoptimizer/releases) and run it as Administrator. Looking to go PRO or need support? [Join the Discord](https://discord.gg/zyruz).
+Download the latest version from [Releases](https://github.com/Chaingod/zyruzoptimizer/releases) and run it as Administrator. Looking to go PRO or need support? [Join the Discord](https://discord.gg/MxU4TNrzSt).
 
 ---
 
