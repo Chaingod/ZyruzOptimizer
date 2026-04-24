@@ -18,7 +18,7 @@
 
 ## ⚡ Why Zyruz Booster?
 
-Most "optimizing" tools do nothing but clear temporary files. **Zyruz Booster is different.** We go deep into the Windows Kernel, Registry, and Network Stack to eliminate the bottlenecks that are holding back your FPS and increasing your latency.
+Most "optimizing" tools do nothing but clear temporary files. **Zyruz Booster is different.** We go deep into the Windows Kernel, Registry, and Network Stack to eliminate the bottlenecks that are [...]
 
 > [!IMPORTANT]
 > Zyruz Booster is a **portable** application. No installation required. Just run the `.exe` as Administrator and dominate.
@@ -42,7 +42,7 @@ In competitive gaming, every millisecond counts. Zyruz optimizes your HID stack 
 
 ### 🌐 Network & Ping Optimizer
 Eliminate lag spikes and get the lowest ping to game servers.
-- **Nagle’s Algorithm:** Disabled packets buffering for instant data transmission.
+- **Nagle's Algorithm:** Disabled packets buffering for instant data transmission.
 - **Auto-DNS Optimizer:** Detects and applies the fastest DNS servers (Cloudflare/Google).
 - **TCP Auto-Tuning:** Stabilizes packet flow to prevent variance spikes.
 
@@ -80,18 +80,19 @@ Zyruz Booster offers a comprehensive free experience, but the **PRO** version ta
 
 ---
 
-## 📸 Screenshots
+## 🎬 Showcase
 
 <p align="center">
-  <img src="assets/dashboard.png" width="45%" alt="Dashboard">
-  <img src="assets/fps_boost.png" width="45%" alt="FPS Boost">
+  <a href="https://cdn.discordapp.com/attachments/1077281385078861966/1497001989446570105/zyruz_promo_banner_3.mp4?ex=69ec97ff&is=69eb467f&hm=62fe41d3b29ea51e5e51b77ba95543bb7f95064baceccf7c6cdb5ccfc6050da1&">
+    <img src="https://img.shields.io/badge/Watch%20Showcase%20Video-FF0000?style=for-the-badge&logo=youtube" alt="Watch Showcase">
+  </a>
 </p>
 
 ---
 
 ## ⚠️ Disclaimer
 
-*Zyruz Booster makes deep changes to the Windows registry and system services. While we provide a "Create Restore Point" feature, use this tool at your own risk. Zyruz is not responsible for any system instability.*
+*Zyruz Booster makes deep changes to the Windows registry and system services. While we provide a "Create Restore Point" feature, use this tool at your own risk. Zyruz is not responsible for any s[...]
 
 ---
 
