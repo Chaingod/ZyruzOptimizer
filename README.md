@@ -8,7 +8,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Version-1.6.8-blueviolet?style=for-the-badge&logo=github" alt="Version">
+  <img src="https://img.shields.io/badge/Version-1.8.0-blueviolet?style=for-the-badge&logo=github" alt="Version">
   <img src="https://img.shields.io/badge/Platform-Windows-0078D4?style=for-the-badge&logo=windows" alt="Platform">
   <a href="https://discord.gg/MxU4TNrzSt"><img src="https://img.shields.io/badge/Join%20Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Join Discord"></a>
 </p>
