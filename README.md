@@ -70,8 +70,11 @@ A restore point is created automatically before any optimizations are applied. Y
 Questions, issues, or looking to go PRO — [join the Discord](https://discord.gg/MxU4TNrzSt).
 
 ---
+## Virus Total Scan 
 
+https://www.virustotal.com/gui/file/eae7143bb37eaf9d15fba0b7b206816264725e0db9243bc299ae365f46e80843/behavior
 
+---
 ## Disclaimer
 
 Zyruz Booster modifies registry entries, Windows services, and low-level system settings. A restore point is created before any changes are made, but you should back up your system regardless. Use at your own risk — we're not responsible for issues caused by misuse or hardware/software incompatibilities.
