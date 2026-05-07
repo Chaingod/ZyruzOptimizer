@@ -1,83 +1,101 @@
 <p align="center">
+  <img src="assets/icon.png" width="80" alt="Zyruz Booster">
 </p>
 
-<h1 align="center">🚀 Zyruz Booster — Elite PC Optimizer</h1>
+<h1 align="center">Zyruz Booster</h1>
+
+<p align="center">PC optimizer built for competitive gaming. No fluff, no bloat — just results.</p>
 
 <p align="center">
-  <strong>Unleash your PC's hidden potential. Built for competitive gamers who demand peak performance.</strong>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Version-1.9.7-blueviolet?style=for-the-badge&logo=github" alt="Version">
+  <img src="https://img.shields.io/badge/Version-1.9.4-blueviolet?style=for-the-badge" alt="Version">
   <img src="https://img.shields.io/badge/Platform-Windows-0078D4?style=for-the-badge&logo=windows" alt="Platform">
-  <a href="https://discord.gg/MxU4TNrzSt"><img src="https://img.shields.io/badge/Join%20Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Join Discord"></a>
+  <a href="https://discord.gg/MxU4TNrzSt"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord"></a>
 </p>
 
 ---
 
-## ⚡ What is Zyruz Booster?
+Most "optimizer" tools clear your temp folder and slap a before/after graph on it. Zyruz actually goes deeper — kernel scheduling, registry overhead, USB latency, driver stack, network tuning. The stuff that matters when you're playing at a competitive level.
 
-Tired of feeling like your PC isn't performing as well as it should? Most optimization tools are garbage—they just clear temp files and call it a day. Zyruz is different. We dig into the actual bottlenecks: kernel scheduling, registry bloat, network stack inefficiencies, and driver overhead. The result? More FPS, lower latency, and a system that actually responds.
-
-> [!IMPORTANT]
-> **Portable & Standalone** — Just download and run. No installation nonsense. Admin rights required.
+Built on [Tauri](https://tauri.app/) (Rust + web frontend), runs as a standalone `.exe`, no installer needed.
 
 ---
 
-## 🎮 What You Get
+## What it does
 
-**FPS & Performance**
-- Unlock hidden CPU/GPU power states your OEM disabled
-- Keep all cores active to eliminate micro-stutters
-- Enable Hardware Accelerated GPU Scheduling for instant latency drops
-- Lock the kernel in RAM instead of slow disk paging
+**Performance**
+- Unpark CPU cores to eliminate micro-stutters under load
+- Enable Hardware Accelerated GPU Scheduling (HAGS)
+- Lock the Windows kernel in RAM — no disk paging under pressure
+- Unlock power states that OEMs artificially cap
 
-**Competitive Edge**
-- Raw 1:1 mouse input—no acceleration, no smoothing
-- Force true exclusive fullscreen mode for zero display lag
-- Eliminate USB sleep states that kill your latency
-- Optimize the HID stack for pro-level responsiveness
+**Input**
+- Raw 1:1 mouse input — no acceleration, no smoothing, no filtering
+- Disable USB selective suspend (kills latency spikes mid-game)
+- HID stack tuning for sub-millisecond response consistency
+- Force true exclusive fullscreen for games that fake it
 
-**Network Tuning**
-- Disable Nagle's Algorithm for instant packet transmission
-- Auto-detect and apply the fastest DNS servers
-- Stabilize TCP flow to kill ping variance
-- Custom network tweaks for your ISP
+**Network**
+- Disable Nagle's Algorithm for immediate packet dispatch
+- Auto-detect and lock in your fastest DNS servers
+- TCP flow stabilization to flatten ping variance
+- Per-ISP network profile support
 
-**System Cleanup**
-- Smart RAM management that actually keeps apps alive
-- Strip Windows bloat without breaking anything
-- Disable telemetry and background nonsense
-
----
-
-## 💎 Free vs PRO
-
-| Feature | Free | PRO |
-| :--- | :---: | :---: |
-| Core FPS Optimizations | ✅ | ✅ |
-| RAM & Memory Cleaner | ✅ | ✅ |
-| Windows Debloater | ✅ | ✅ |
-| Advanced Input Lag Suite | ❌ | ✅ |
-| Premium Network Optimizer | ❌ | ✅ |
-| GPU Driver Deep-Clean | ❌ | ✅ |
-| Display Latency Tweaks | ❌ | ✅ |
-| Audio Buffer Optimization | ❌ | ✅ |
+**Cleanup**
+- Strip Windows telemetry and background services that eat CPU
+- Smart RAM management — frees memory without killing app state
+- Debloat without breaking system functionality
 
 ---
 
-## 🔗 Get Started
+## Free vs PRO
 
-Download the latest version from [Releases](https://github.com/Chaingod/zyruzoptimizer/releases) and run it as Administrator. Looking to go PRO or need support? [Join the Discord](https://discord.gg/MxU4TNrzSt).
+| | Free | PRO |
+|---|:---:|:---:|
+| Core FPS optimizations | ✅ | ✅ |
+| RAM & memory cleaner | ✅ | ✅ |
+| Windows debloater | ✅ | ✅ |
+| Advanced input lag suite | — | ✅ |
+| Premium network optimizer | — | ✅ |
+| GPU driver deep-clean | — | ✅ |
+| Display latency tweaks | — | ✅ |
+| Audio buffer optimization | — | ✅ |
 
 ---
 
-## ⚠️ Disclaimer
+## Getting started
 
-*Zyruz Booster modifies deep system settings, registry entries, and Windows services. We provide restore point functionality, but use at your own risk. Backup your system before running. We're not responsible for issues caused by misuse or incompatibility with your specific hardware/software setup.*
+Download the latest `.exe` from [Releases](https://github.com/Chaingod/zyruzoptimizer/releases). Run it as Administrator — it needs elevated rights to touch the system settings it actually changes.
+
+A restore point is created automatically before any optimizations are applied. You can also trigger one manually from the dashboard.
+
+Questions, issues, or looking to go PRO — [join the Discord](https://discord.gg/MxU4TNrzSt).
 
 ---
 
-<p align="center">
-  Made with ❤️ by Zyruz Team
-</p>
+## Changelog
+
+**v1.9.4**
+- Fixed dashboard layout breakage (overlapping/misaligned UI elements)
+- Fixed CEO/Premium accounts being shown as Free Plan due to case-sensitive role check
+- Added HPET, MTU, Extreme Debloat, and CPU Unpark to the script whitelist
+- Fixed clickable buttons in the draggable titlebar region
+- Restored sidebar/content layout stability
+- Fixed search and stats display in the admin panel
+- RAM cleaner manual clear improvements
+
+**v1.9.3**
+- Admin panel expanded with live user search and stats summary
+- Fixed long decimal display in before/after optimization stats
+- Fixed activity log clearing on each run
+- App now stays in tray on close/minimize
+- RAM cleaner backend improvements
+
+---
+
+## Disclaimer
+
+Zyruz Booster modifies registry entries, Windows services, and low-level system settings. A restore point is created before any changes are made, but you should back up your system regardless. Use at your own risk — we're not responsible for issues caused by misuse or hardware/software incompatibilities.
+
+---
+
+<p align="center">Made by the Zyruz Team</p>
