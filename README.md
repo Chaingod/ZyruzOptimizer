@@ -16,7 +16,6 @@
 
 Most "optimizer" tools clear your temp folder and slap a before/after graph on it. Zyruz actually goes deeper — kernel scheduling, registry overhead, USB latency, driver stack, network tuning. The stuff that matters when you're playing at a competitive level.
 
-Built on [Tauri](https://tauri.app/) (Rust + web frontend), runs as a standalone `.exe`, no installer needed.
 
 ---
 
