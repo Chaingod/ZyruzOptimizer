@@ -2,7 +2,7 @@
   <img src="assets/icon.png" width="80" alt="Zyruz Booster">
 </p>
 
-<h1 align="center">Zyruz Booster</h1>
+<h1 align="center">[Zyruz Booster ]([https://github.com/Chaingod/zyruzoptimizer/releases](https://opti-zyruz.vercel.app/))</h1>
 
 <p align="center">PC optimizer built for competitive gaming. No fluff, no bloat — just results.</p>
 
@@ -71,25 +71,6 @@ Questions, issues, or looking to go PRO — [join the Discord](https://discord.g
 
 ---
 
-## Changelog
-
-**v1.9.4**
-- Fixed dashboard layout breakage (overlapping/misaligned UI elements)
-- Fixed CEO/Premium accounts being shown as Free Plan due to case-sensitive role check
-- Added HPET, MTU, Extreme Debloat, and CPU Unpark to the script whitelist
-- Fixed clickable buttons in the draggable titlebar region
-- Restored sidebar/content layout stability
-- Fixed search and stats display in the admin panel
-- RAM cleaner manual clear improvements
-
-**v1.9.3**
-- Admin panel expanded with live user search and stats summary
-- Fixed long decimal display in before/after optimization stats
-- Fixed activity log clearing on each run
-- App now stays in tray on close/minimize
-- RAM cleaner backend improvements
-
----
 
 ## Disclaimer
 
