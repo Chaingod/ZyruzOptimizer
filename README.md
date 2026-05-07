@@ -2,7 +2,7 @@
   <img src="assets/icon.png" width="80" alt="Zyruz Booster">
 </p>
 
-<h1 align="center">[Zyruz Booster ]([https://github.com/Chaingod/zyruzoptimizer/releases](https://opti-zyruz.vercel.app/))</h1>
+<h1 align="center">[Zyruz Booster](https://opti-zyruz.vercel.app/)</h1>
 
 <p align="center">PC optimizer built for competitive gaming. No fluff, no bloat — just results.</p>
 
